@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../assets/logoTienda.jpg"
 import CartWidget from '../CartWidget/CartWidget'
-import { COLORS } from "../../constants/color";
 import { Link, NavLink } from "react-router-dom";
 
 const viewport = {
@@ -35,7 +34,7 @@ const Navbar = () => {
 const styles = {
     container: {
         display: viewport.width > 900 ? 'flex' : 'none',
-        backgroundColor: COLORS.rosa,
+        backgroundColor: '#E1C0DF',
         justifyContent: "space-between",
         alignItems: "center",
         width: "100%"
