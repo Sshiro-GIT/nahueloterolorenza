@@ -4,8 +4,7 @@ import { cartContext } from '../../Context/CartContext';
 
 
 const CartWidget = () => {
-
-  const { qtyProducts } = useContext(cartContext);
+const { qtyProducts } = useContext(cartContext);
   
 
   return (
